@@ -55,6 +55,11 @@ services:
         environment:
             - START_SLEEP=50
 
+    uaapy-app:
+        image: uaapy
+        environment:
+            - START_SLEEP=50
+
     abilitypy-app:
         image: abilitypy
         environment:
