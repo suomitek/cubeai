@@ -1,40 +1,40 @@
-cd ~/git/cubeai/uaa-python
+cd ../uaa-python
 sh build-docker.sh
 
-cd ~/git/cubeai/gateway-python
+cd ../gateway-python
 sh build-docker.sh
 
-cd ~/git/cubeai/portal-python
+cd ../portal-python
 yarn install
 sh build-docker.sh
 
-cd ~/git/cubeai/ppersonal-python
+cd ../ppersonal-python
 yarn install
 sh build-docker.sh
 
-cd ~/git/cubeai/pmodelhub-python
+cd ../pmodelhub-python
 yarn install
 sh build-docker.sh
 
-cd ~/git/cubeai/popen-python
+cd ../popen-python
 yarn install
 sh build-docker.sh
 
-cd ~/git/cubeai/umm-python
+cd ../umm-python
 sh build-docker.sh
 
-cd ~/git/cubeai/umu-python
+cd ../umu-python
 sh build-docker.sh
 
-cd ~/git/cubeai/umd-python
+cd ../umd-python
 sh build-docker.sh
 
-cd ~/git/cubeai/ability-python
+cd ../ability-python
 sh build-docker.sh
 
-cd ~/git/cubeai/pface-python
+cd ../pface-python
 yarn install
 sh build-docker.sh
 
-cd ~/git/cubeai/uface-python
+cd ../uface-python
 sh build-docker.sh
