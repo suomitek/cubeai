@@ -32,9 +32,9 @@ sh build-docker.sh
 cd ../ability-python
 sh build-docker.sh
 
-cd ../pface-python
-yarn install
-sh build-docker.sh
+#cd ../pface-python
+#yarn install
+#sh build-docker.sh
 
-cd ../uface-python
-sh build-docker.sh
+#cd ../uface-python
+#sh build-docker.sh
